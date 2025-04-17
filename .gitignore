@@ -1,0 +1,7 @@
+__pycache__
+xga_output
+raw_images
+.DS_Store
+.ipynb_checkpoints/
+*.idea
+BACKUP-bcg_ident_proj_save.json
