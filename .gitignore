@@ -5,3 +5,4 @@ raw_images
 .ipynb_checkpoints/
 *.idea
 BACKUP-bcg_ident_proj_save.json
+*noupload*
