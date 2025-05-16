@@ -25,6 +25,10 @@ The general steps are as follows:
 
 * Simple visualizations of tool-identified spectra for each candidate, note that some tool-identified spectra only have redshift information and no raw data, so visualisations may be missing - ***[indiv_cluster/\<CLUSTER NAME\>/\<CLUSTER NAME\>_BCG\<CANDNO\>.pdf]***
 
+
 ## Notebook summaries
 
-*
+* ***STEP1-spot_the_bcg.ipynb*** - First step of the BCG identification framework, displays interactive DESI Legacy Survey and XMM images, and allows users to click on galaxies and designate that position as a BCG candidate.
+* ***STEP2-search_for_spectra.ipynb*** - Follows on from the initial step, fetches spectra from a variety of datasets, and displays their positions on Legacy Survey images, the user can then click on a spectrum to load a visualisation, and designate selected spectra as being associated with the current candidate.
+* ***STEP3-compare_bcg_redshifts_to_cluster.ipynb*** - Here the BCG candidate spectroscopic redshifts are compared to original MCXC redshifts - there are several sets of figures showing the comparisons. Candidates without associated spectra are identified.
+
