@@ -1,4 +1,4 @@
-name,spec_id,survey,ra,dec,z,z_err,z_quality,ok_z_quality,only_tool_spec,source
+name,spec_id,survey,spec_ra,spec_dec,z,z_err,z_quality,ok_z_quality,only_tool_spec,source
 LoVoCCS-5,4639141,cfa,302.7088317871094,-56.6729621887207,0.05633896778605202,0.00023349483392679936,,,True,tool
 LoVoCCS-9,4614026,cfa,67.4118423461914,-61.17456817626953,0.06671280969337125,0.00016678202423342812,,,True,tool
 LoVoCCS-11,4619294,cfa,137.32974243164062,-9.70008659362793,0.054214164797318144,9.339793357071975e-05,,,True,tool

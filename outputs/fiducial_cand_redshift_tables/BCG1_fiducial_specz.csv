@@ -1,4 +1,4 @@
-name,spec_id,survey,ra,dec,z,z_err,z_quality,ok_z_quality,only_tool_spec,source
+name,spec_id,survey,spec_ra,spec_dec,z,z_err,z_quality,ok_z_quality,only_tool_spec,source
 LoVoCCS-1,4712886,hectospec,227.7332083333,5.7415086111,0.07351239770650864,,,,False,tool
 LoVoCCS-2,4611177,cfa,44.74148178100586,13.582242012023926,0.07451820842749568,0.0005003460727002843,,,True,tool
 LoVoCCS-4A,231472,sdss,10.460272,-9.3031461,0.055358774960041046,1.5695135516580194e-05,,1.0,False,tool
