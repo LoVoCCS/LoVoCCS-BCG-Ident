@@ -15,6 +15,10 @@ The general steps are as follows:
 
 * Files containing the results of cross-matches of our BCG candidates with VLASS and GALEX source catalogs. There may be multiple entries per particular cluster BCG candidate, as we didn't really perform an actual _match_, more of a search within a specified radius. - ***[outputs/vlass_galex_crossmatches/bcg\<CANDNO\>_cands_\<CATALOG\>_searchrad\<SEARCH RADIUS\>arcsec.csv]***
 
+* Calculated UV and VLASS luminosities from GALEX and VLASS information - ***[outputs/vlass_galex_luminosities/BCG\<CANDNO\>_<GALEX/VLASS>_luminosities.csv]***
+
+* UV and VLASS luminosity comparison for those candidates with both available - ***[outputs/vlass_galex_luminosities/BCG\<CANDNO\>_uvlum-vs-vlasslum.pdf]***
+
 * History of the use of the BCG identification framework, including all image file paths, identified BCG candidate positions, source/unique ID information for spectra assigned to candidates, and redshift information - ***[history/bcg_ident_proj_save.json]***
 
 * Spectroscopic redshifts identified from literature for candidates with no tool spectra. Files also include the source dataset, and any notes - ***[outputs/literature_specz_for_cands_without/bcg\<CANDNO\>_cand_notoolz_litspecz.json]***
@@ -38,3 +42,4 @@ The general steps are as follows:
 
 * ***manual_bcgs-vs-LoVoCCSII_bcgs.ipynb*** - Puts the manually identified BCGs into context by comparing their positions to those of the BCGs identified for the LoVoCCS-II paper - position indicators are plotted on DESI Legacy Survey and XMM images.
 *  ***crossmatch_bcgcands_VLASS_GALEX.ipynb*** - Uses the AstroQuery interface with VizieR to cross match our manually identified BCG candidates with the VLASS QL Ep.1 and GALEX AIS UV GR6+7 source catalogs - really we are searching for catalog entries within search radii (can be changed easily for both catalogs), as we do not only take the closest source (this is more important for VLASS than GALEX, as big jets and wide-angle-tail type structures can often be split into muliple sources in the catalog).
+*  ***VLASS_GALEX_luminosities.ipynb*** - Calculates luminosities from GALEX and VLASS fluxes taken from catalog matches. Also plots the relationship between GALEX and VLASS luminosities for those BCGs with both.
