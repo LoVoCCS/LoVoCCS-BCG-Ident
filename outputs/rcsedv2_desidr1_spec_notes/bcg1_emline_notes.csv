@@ -1,0 +1,68 @@
+name,em_line,notes
+LoVoCCS-1,False,
+LoVoCCS-2,,
+LoVoCCS-4A,True,Single emission line in SDSS spectrum I think.
+LoVoCCS-4B,,
+LoVoCCS-5,,
+LoVoCCS-7,,
+LoVoCCS-9,,
+LoVoCCS-10,False,
+LoVoCCS-11,,
+LoVoCCS-12,False,
+LoVoCCS-13,,
+LoVoCCS-14,,
+LoVoCCS-15,True,Abell 2597! Of course its popping off
+LoVoCCS-18,False,May be that only the 2dF spectrum we selected is actually associated with this BCG.
+LoVoCCS-21,False,
+LoVoCCS-22,False,Possibly a slight residual skyline near 5600 angstroms.
+LoVoCCS-24,False,"My vis. look a bit odd, more like stellar spectrum."
+LoVoCCS-26,,
+LoVoCCS-27,,
+LoVoCCS-28,False,
+LoVoCCS-29,False,"Something around 5300 angstroms, but maybe poorly subtracted skyline?"
+LoVoCCS-30,,
+LoVoCCS-31,False,Weird looking spec. in my vis. 
+LoVoCCS-33,False,"Something around 5600 angstroms, but I'm not sure its real."
+LoVoCCS-35,,
+LoVoCCS-39,False,
+LoVoCCS-41A,False,
+LoVoCCS-41B,True,"Think the spectra we have for this are for two/three separate, but likely interacting, galaxies. VERY INTERESTING SET OF GALAXIES I EXPECT."
+LoVoCCS-41C,False,
+LoVoCCS-42,,
+LoVoCCS-45,,
+LoVoCCS-46A,False,
+LoVoCCS-46B,,
+LoVoCCS-46C,False,
+LoVoCCS-48A,True,Think there are some low intensity emission lines.
+LoVoCCS-48B,True,"Not extreme lines, but quite a wide one at 6800 angstroms (made wider by FAST low res. I assume)"
+LoVoCCS-49,,
+LoVoCCS-51,False,Couple of what look like residual sky lines
+LoVoCCS-55,False,
+LoVoCCS-58,,
+LoVoCCS-60A,,
+LoVoCCS-60B,False,
+LoVoCCS-61,False,
+LoVoCCS-63,False,
+LoVoCCS-65,,
+LoVoCCS-66A,True,"Think there is a line, but it is a FAST spectrum so pinch of salt"
+LoVoCCS-66B,False,
+LoVoCCS-67,True,
+LoVoCCS-74,,
+LoVoCCS-75,,
+LoVoCCS-76,False,
+LoVoCCS-80,,
+LoVoCCS-85,True,"Very faint line I think - VERY INTERESTING SET OF GALAXIES, with lots of UV and a blue streak in DESI-LS."
+LoVoCCS-89,False,Think there is a residual skyline in spec.
+LoVoCCS-90,True,Low intensity line I think
+LoVoCCS-93A,,
+LoVoCCS-93B,,
+LoVoCCS-94,False,
+LoVoCCS-98,False,
+LoVoCCS-99,False,
+LoVoCCS-108,True,Low intensity line I think
+LoVoCCS-119,True,One of the few DESI spectra for this subset of LoVoCCS - quite a wide line
+LoVoCCS-121,,
+LoVoCCS-122,False,
+LoVoCCS-123,,
+LoVoCCS-131,,
+LoVoCCS-134,,
