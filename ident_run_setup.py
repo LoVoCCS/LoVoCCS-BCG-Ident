@@ -22,16 +22,16 @@ stretch_dict = {'LOG': LogStretch(), 'SINH': SinhStretch(), 'ASINH': AsinhStretc
 
 # Useful constants are set up here
 HISTORY_ROOT = os.path.abspath("history/")
-HISTORY_FILE_PATH = os.path.join(HISTORY_ROOT, 'bcg_ident_proj_save.json')
+HISTORY_FILE_PATH = os.path.join(HISTORY_ROOT, 'X-LoVoCCSI-N-bcg_ident_proj_save.json')
 OUTPUT_ROOT = os.path.abspath("outputs/")
-OUTPUT_SAMP_FILE_PATH = os.path.join(OUTPUT_ROOT, 'bcg_output_sample.csv')
+OUTPUT_SAMP_FILE_PATH = os.path.join(OUTPUT_ROOT, 'X-LoVoCCSI-N-bcg_output_sample.csv')
 OUTPUT_CLUSTER_PATH = os.path.join(OUTPUT_ROOT, 'indiv_cluster/{n}/')
 
 # Sets up the cosmology to be used throughout this BCG identification run
 cosmo = LambdaCDM(71, 0.2648, 0.7352, Ob0=0.0448)
 
 # The path to the input sample file
-init_samp_file = "input_sample_files/X-LoVoCCSI.csv"
+init_samp_file = "input_sample_files/X-LoVoCCSI-North.csv"
 # We use the file name to create a 'project name' - helps us name things
 proj_name = os.path.basename(init_samp_file).split('.')[0]
 
